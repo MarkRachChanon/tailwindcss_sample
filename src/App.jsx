@@ -1,9 +1,12 @@
 import React from 'react'
+import Card from './components/Card'
 
 const App = () => {
   return (
     <>
-      <h1 className='text-3xl font-bold underline text-blue-500'>Tailwind CSS</h1>
+      <div className='container mx-auto p-4'>
+        <Card />
+      </div>
     </>
   )
 }
