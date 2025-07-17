@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from './components/Card'
+import CardList from './components/CardList'
 
 const App = () => {
   return (
     <>
       <div className='container mx-auto p-4'>
-        <Card />
+        <CardList />
       </div>
     </>
   )
