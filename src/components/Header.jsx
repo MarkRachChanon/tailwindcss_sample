@@ -19,6 +19,11 @@ const Header = () => {
                             <h1 className='text-2xl font-bold'>Card Gallery</h1>
                         </div>
 
+                        {/* Hamburger Icon */}
+                        <button className='block lg:hidden cursor-pointer' onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                            <i className={`bi ${isMenuOpen ? 'bi-x' : 'bi-list'} text-3xl`}></i>
+                        </button>
+
                         {/* Desktop Navigation Menu */}
                         <nav className='hidden lg:flex items-center space-x-8'>
                             {menuItems.map((item) => (

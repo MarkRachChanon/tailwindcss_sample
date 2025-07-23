@@ -1,6 +1,7 @@
 import React from 'react'
 import CardList from './components/CardList'
-import Header from './components/Header';
+import Header from './components/Header'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const App = () => {
   return (
