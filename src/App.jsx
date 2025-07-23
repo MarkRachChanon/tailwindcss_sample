@@ -2,6 +2,7 @@ import React from 'react'
 import CardList from './components/CardList'
 import Header from './components/Header'
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import Button from './components/Button'
 
 const App = () => {
   return (
@@ -12,7 +13,11 @@ const App = () => {
           <h2 className='text-5xl font-bold mb-4 text-blue-950'>Welcome to the Card Gallery</h2>
           <p className='text-black mb-6 text-lg font-semibold'>Browse through our collection of cards and discover amazing designs.</p>
           {/* <Button nameButton="Explore Cards" /> */}
+          <Button nameButton="Explore Cards" />
         </div>
+      </section>
+      <section>
+        {/* LAB */}
       </section>
       <div className='container mx-auto p-4'>
         <CardList />
