@@ -16,6 +16,7 @@ const App = () => {
           <Button nameButton="Explore Cards" />
         </div>
       </section>
+      
       <section className='bg-white py-12'>
         <div className='container mx-auto px-4 text-center'>
           <h1 className='text-3xl font-bold text-purple-950 text-center mb-6'>
