@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About'
 import NotFound from './pages/NotFound';
+import CardDetail from './pages/CardDetail'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='/collection' element={<Collection/>} />
             <Route path='/about' element={<About/>} />
+            <Route path='/card_detail/:id' element={<CardDetail/>} />
             <Route path='*' element={<NotFound/>} />
           </Routes>
         </div>
